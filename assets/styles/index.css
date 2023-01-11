@@ -28,3 +28,9 @@ div {
 .paragrafo, .titulo {
     background-color: crimson;
 }
+
+@media (max-width: 800px) {
+    .titulo {
+        display: none;
+    }
+}
